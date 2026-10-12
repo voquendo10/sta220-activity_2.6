@@ -12,6 +12,7 @@ q1_2025 = read_csv("data/2025_q1.csv")
 # Examine
 # I expect 48 rows, 4 columns
 dim(q1_2025)
+names(q1_2025)
 summary(q1_2025) # shows min of -1, which is in the codebook
 
 # Recode
